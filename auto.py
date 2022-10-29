@@ -92,7 +92,7 @@ DATA = {
 ###############################################################################
 
 # 设置debug等级
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(filename)s:%(lineno)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(filename)s:%(lineno)s - %(message)s')
 
 ###############################################################################
 # 环境变量获取
