@@ -21,7 +21,7 @@ SERVICE = 'https://app.bupt.edu.cn/a_bupt/api/sso/cas?redirect=https%253A%252F%2
 #'https://app.bupt.edu.cn/a_bupt/api/sso/cas'#?redirect=https%3A%2F%2Fapp.bupt.edu.cn%2Fncov%2Fwap%2Fdefault%2Findex&from=wap'
 
 # 模拟浏览器信息
-USER_AGENT = 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0'
+USER_AGENT = 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.17(0x18001122) NetType/4G Language/zh_CN'
 
 # Execution信息的xpath
 EXECUTION_XPATH = '/html/body/div[1]/div/form/div[5]/input[2]/@value'
@@ -29,7 +29,7 @@ EXECUTION_XPATH = '/html/body/div[1]/div/form/div[5]/input[2]/@value'
 # 表单信息
 # 吐槽一下，写柏油的教务系统和疫情填报的前端程序员都tm煞笔
 DATA = {
-	"area":       "北京市+海淀区",
+	"area":       "北京市+昌平区",
 	"bztcyy":     "",           # 不合前一天同城原因
 	"city":       "北京市",
 	"created":    "1608086660", # 时间戳
